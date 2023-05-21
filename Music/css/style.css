@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@500&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1ed760;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 65px;
+    align-items: center;
+    color: white;
+}
+
+nav ul li {
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: greenyellow;
+}
+
+.logo img {
+    height: 60px;
+    width: 90px;
+    padding: 0px 12px;
+
+    /* width: 44px;
+    padding: 0 8px; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+
+.container {
+    min-height: 72vh;
+    background-image: url('cover/spotifyG.gif');
+    padding: 34px;
+    background-repeat: no-repeat;
+    background-size: 1042px;
+    color: white;
+    border-radius: 12px;
+    width: 70%;
+    margin: 23px auto;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    color: aliceblue;
+    height: 130px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.icons {
+    position: absolute;
+    margin-top: 75px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myTimingBar {
+    margin: 55px 0px;
+    width: 80vw; 
+    cursor: pointer;
+}
+
+
+.Msongs {
+    height: 50px;
+    background-color: #169c46;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    justify-content: space-between;
+    border-radius: 34px;
+}
+
+.Msongs img {
+    width: 43px;
+    border-radius: 34px;
+    margin: 0px 23px; 
+}
+
+
+.songspan {
+    margin-top: 4px;
+}
+
+
+.times{
+    margin: 23px;
+
+}
+
+.times i{
+    cursor: pointer;
+}
+
+.span i {
+    margin: 30px;
+}
+
+.songinfo {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 185px;
+    bottom: 24px;
+}
+
+.songItemPlay{
+    cursor: pointer;
+    margin: 9px;
+}
+
+@media screen and (max-width:390px) {
+    body{
+        background-color: blue;
+    }
+}
+
+
